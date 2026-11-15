@@ -1,0 +1,45 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-27" mainComp="false" Show_id="true" Show_Val="false" Pos="-52,-368" rotation="0" hflip="1" vflip="1" label="Uno-27" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="exp00_2.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="LedMatrix" CircId="LedMatrix-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-344" rotation="0" hflip="1" vflip="1" label="LedMatrix-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Rows="3" Cols="3" Vertical_Pins="false" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-29" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-128,-340" rotation="0" hflip="1" vflip="1" label="Resistor-29" idLabPos="-16,-24" labelrot="0" valLabPos="-11.4894,3.12961" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-30" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-80,-280" rotation="90" hflip="1" vflip="1" label="Resistor-30" idLabPos="-16,-24" labelrot="0" valLabPos="-11.8994,2.71955" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-31" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-100,-280" rotation="90" hflip="1" vflip="1" label="Resistor-31" idLabPos="-16,-24" labelrot="0" valLabPos="-10.6693,2.3095" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-32" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-300" rotation="0" hflip="1" vflip="1" label="Resistor-32" idLabPos="-16,-24" labelrot="0" valLabPos="-10.2592,2.3095" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-33" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-128,-320" rotation="0" hflip="1" vflip="1" label="Resistor-33" idLabPos="-16,-24" labelrot="0" valLabPos="-9.84916,1.89944" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-34" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-68,-280" rotation="90" hflip="1" vflip="1" label="Resistor-34" idLabPos="-16,-24" labelrot="0" valLabPos="-11.0793,-18.6034" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Resistor-29-rPin" endpinid="LedMatrix-28-pinRow0" pointList="-112,-340,-108,-340,-108,-344" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="Resistor-33-rPin" endpinid="LedMatrix-28-pinRow1" pointList="-112,-320,-112,-336,-108,-336" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Resistor-32-rPin" endpinid="LedMatrix-28-pinRow2" pointList="-108,-300,-108,-328" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Resistor-31-lPin" endpinid="LedMatrix-28-pinCol0" pointList="-100,-296,-100,-312,-92,-312" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Resistor-30-lPin" endpinid="LedMatrix-28-pinCol1" pointList="-80,-296,-80,-312,-84,-312" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Resistor-34-lPin" endpinid="LedMatrix-28-pinCol2" pointList="-68,-296,-68,-312,-76,-312" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Resistor-29-lPin" endpinid="Uno-27-2" pointList="-144,-340,-144,-356,-60,-356,-60,-336,-44,-336" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Resistor-33-lPin" endpinid="Uno-27-3" pointList="-144,-320,-152,-320,-152,-360,-56,-360,-56,-328,-44,-328" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Resistor-32-lPin" endpinid="Uno-27-4" pointList="-140,-300,-160,-300,-160,-368,-52,-368,-52,-320,-44,-320" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-34-rPin" endpinid="Uno-27-10" pointList="-68,-264,-44,-264" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Resistor-30-rPin" endpinid="Uno-27-11" pointList="-80,-264,-80,-256,-44,-256" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Resistor-31-rPin" endpinid="Uno-27-12" pointList="-100,-264,-100,-248,-44,-248" />
+
+</circuit>
